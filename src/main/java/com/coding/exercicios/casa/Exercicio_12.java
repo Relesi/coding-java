@@ -1,7 +1,8 @@
-package com.coding.exercicios.aula;
+package com.coding.exercicios.casa;
 
 
-/*
+    /*
+
         Escreva um programa Java para aceitar um número e verificar se o número é par ou não.
         Imprime 1 se o número for par ou 0 se o número for ímpar.
             Saída de amostra:
@@ -12,22 +13,19 @@ package com.coding.exercicios.aula;
 
 import java.util.Scanner;
 
-public class Exercicio5_aula {
+public class Exercicio_12 {
 
     public static void main(String[] args) {
         Scanner inputNum = new Scanner(System.in);
         int number = 3;
 
-        System.out.println("Digite um numero:");
+        System.out.println("Digite o numero");
         number = inputNum.nextInt();
 
-        if (number % 2 == 0) {
+        if (number % 2 == 0)
             System.out.println(1);
-        }else
+        else
             System.out.println(0);
     }
-
-
-
 
 }
